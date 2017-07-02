@@ -12,5 +12,5 @@ Secure your admin panel
 
 
 <li><h3>Users Management</h3></li>
-<img src='https://github.com/aghanathan/LoginSecurity/blob/master/preview02.png'/>
+<img src='https://github.com/aghanathan/LoginSecurity/blob/master/preview03.png'/>
 </ul>
