@@ -5,7 +5,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 session_start();
 
 $user = mysqli_real_escape_string($con, $_POST['username']);
-$pass = mysqli_real_escape_string($con, $_POST['password']);
+$pass = mysqli_real_escape_string($con, md5($_POST['password']));
 
 if ($user AND $pass){
 	$login = mysqli_query($con,"SELECT * FROM users WHERE username = '$user' AND password = '$pass'");
