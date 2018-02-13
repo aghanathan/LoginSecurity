@@ -83,9 +83,9 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `email`) VALUES
-(1, 'admin', 'admin', 'aghanata@yahoo.com'),
-(2, 'demo', 'demo', 'info@support.com'),
-(13, 'aghanata', 'admin', 'bytekod32@gmail.com');
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'aghanata@yahoo.com'),
+(2, 'demo', 'fe01ce2a7fbac8fafaed7c982a04e229', 'info@support.com'),
+(13, 'aghanata', '21232f297a57a5a743894a0e4a801fc3', 'bytekod32@gmail.com');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
