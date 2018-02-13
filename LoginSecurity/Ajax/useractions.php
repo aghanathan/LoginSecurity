@@ -6,6 +6,9 @@ error_reporting(E_ALL ^ E_NOTICE);
 $act = $_GET['act'];
 $id = $_GET['id'];
 
+// Encrypt the Password
+$_POST[password] = md5($_POST[password]);
+
 // Sanitize $_GET parameters to avoid XSS and other attacks
 if(strpos(strtolower($id), 'union') || strpos(strtolower($id), 'select') || strpos(strtolower($id), '/*') || strpos(strtolower($id), '*/')) {
    echo "<div class=\"alert alert-warning col-lg-3 col-offset-6 centered col-centered\">
